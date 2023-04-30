@@ -17,16 +17,20 @@
 				<span class="text">Home</span>
 			</router-link>
 			<router-link to="/about" class="button">
-				<span class="material-icons">home</span>
-				<span class="text">About</span>
+				<span class="material-icons">group</span><span class="material-icons">list</span>
+				<span class="text">Team List</span>
 			</router-link>
 			<router-link to="/team" class="button">
-				<span class="material-icons">group</span>
-				<span class="text">Team</span>
+				<span class="material-icons">group</span><span class ="material-icons">difference</span>
+				<span class="text">Team Comparison</span>
 			</router-link>
 			<router-link to="/contact" class="button">
-				<span class="material-icons">email</span>
-				<span class="text">Contact</span>
+				<span class="material-icons">person</span><span class ='material-icons'>list</span>
+				<span class="text">Player list</span>
+			</router-link>
+			<router-link to="/team" class="button">
+				<span class="material-icons">person</span><span class ="material-icons">difference</span>
+				<span class="text">Player Comparison</span>
 			</router-link>
 		</div>
 
